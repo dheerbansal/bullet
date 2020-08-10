@@ -31,12 +31,12 @@ function draw() {
  d = (0.5*weight*speed*speed)/thickness*thickness*thickness
 
 if(d <10  ){
-  movingRect.shapeColor = "green";
+  fixedRect.shapeColor = "green";
   
 }
 
 if(d>10  ){
-  movingRect.shapeColor = "red";
+  fixedRect.shapeColor = "red";
   
 }
 
